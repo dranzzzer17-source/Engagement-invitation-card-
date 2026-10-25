@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engagement Invitation - Sneha & Vishnu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #fcf8f2;
+      font-family: 'Montserrat', sans-serif;
+      color: #4a4a4a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 500px;
+      padding: 40px 25px;
+      border-radius: 200px 200px 12px 12px; /* Elegant Arch Shape */
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+      border: 1px solid #eae5d9;
+      text-align: center;
+      position: relative;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .border-inner {
+      border: 2px solid #d4af37;
+      padding: 30px 15px;
+      border-radius: 180px 180px 8px 8px;
+    }
+    .subtitle {
+      font-family: 'Cinzel', serif;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      color: #8c7851;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    .names {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #2c2c2c;
+      margin: 10px 0;
+      line-height: 1.2;
+    }
+    .ampersand {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      color: #d4af37;
+      display: block;
+      margin: 2px 0;
+    }
+    .parents {
+      font-size: 0.8rem;
+      color: #666;
+      line-height: 1.6;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .date-box {
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      padding: 12px 0;
+      margin: 20px 0;
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      color: #333;
+      letter-spacing: 1px;
+    }
+    .venue-title {
+      font-family: 'Cinzel', serif;
+      font-size: 0.85rem;
+      color: #8c7851;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+    .venue-details {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+    .maps-btn {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 10px 22px;
+      background-color: #d4af37;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+    }
+    .maps-btn:hover {
+      background-color: #b59226;
+    }
+    .map-container {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #eae5d9;
+      margin-top: 10px;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="border-inner">
+      <p class="subtitle">You're Invited to Celebrate Our Engagement</p>
+      
+      <h1 class="names">
+        Sneha K Unni
+        <span class="ampersand">&amp;</span>
+        Vishnu K R
+      </h1>
+      
+      <div class="parents">
+        <p><strong>D/o</strong> Smt. Jyothi Lakshmi &amp; Shri. Krishnanunni K P</p>
+        <p style="margin-top: 4px;"><strong>S/o</strong> Smt. Sasikala E &amp; Shri. Raveendran K K</p>
+      </div>
+
+      <div class="date-box">
+        SUNDAY, NOVEMBER 15<br>
+        <span style="font-size: 0.85rem; color: #666;">10:00 AM - 11:00 AM</span>
+      </div>
+
+      <div class="venue-title">-: VENUE :-</div>
+      <div class="venue-details">
+        <strong>SNEHAJYOTHI House</strong><br>
+        Thrikkadeeri
+      </div>
+
+      <!-- Google Maps Action Button -->
+      <a href="https://maps.app.goo.gl/aXnvDWQh4ryWFHVA6?g_st=ac" target="_blank" class="maps-btn">
+        📍 Get Directions on Google Maps
+      </a>
+
+      <!-- Embedded Google Map -->
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps?q=10.85,76.35&z=15&output=embed" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
